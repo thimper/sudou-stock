@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>sudou_stock</RootNamespace>
     <AssemblyName>sudou-stock</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +36,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=7d6166a29dbc4109" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="winLogin.resx">
       <DependentUpon>winLogin.cs</DependentUpon>
@@ -87,6 +91,112 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_uk_bbs_16px_1135252_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_uk_bbs_48px_1135252_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bbc_News_16px_1123513_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bbc_News_32px_1123513_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bbc_News_48px_1123513_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\News_Report_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\News_Report32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\News_report48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_blue_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_blue_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_stock48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History_stock48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_file_16px_1187339_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_file_32px_1187339_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_file_48px_1187339_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options_settings_16px_10972_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options_settings_32px_10972_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options_settings_48px_10972_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_as_16px_1186319_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_as_32px_1186319_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_as_48px_1186319_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting_16px_1117178_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting_32px_1117178_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_16px_27110_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_32px_27110_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_48px_27110_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\meeting_16.png" />
+    <Content Include="stock.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace sudou_stock
 {
-    public partial class Main : Form
+    public partial class Main : RibbonForm
     {
         public Main()
         {
